@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 3px 1px rgb(var(--home_btn--pinkHover));
+  }
+  50% {
+    box-shadow: 0 0 7px 1px rgb(var(--home_btn--pinkHover));
+  }
+  100% {
+    box-shadow: 0 0 3px 1px rgb(var(--home_btn--pinkHover));
+  }
+}
+
+:root {
+  --app_color--grey3: 52, 58, 64; /* #343A40 */
+  --app_color--grey2: 233, 236, 239; /* #E9ECEF */
+  --app_color--grey1: 248, 249, 250; /* #F8F9FA */
+  --home_bg--grey: 33, 37, 41; /* #212529 */
+  --home_btn--pink: 253, 55, 126; /* #FD377E */
+  --home_btn--pinkHover: 227, 73, 129; /* ##E34981*/
+  --pureWhite: 255, 255, 255; /* #FFFFFF */
+  --app_color--grey50: 134, 142, 150; /* #868E96 */
+  --app_color--green: 3, 184, 15; /* #03B898 */
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
